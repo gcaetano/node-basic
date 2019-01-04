@@ -1,2 +1,3 @@
-var msg = 'Hello World';
-console.log(msg);
+const logger = require('./util/logger');
+
+logger.info("message");

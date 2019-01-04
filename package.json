@@ -1,0 +1,31 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "node basic",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcaetano/node-basic.git"
+  },
+  "keywords": [
+    "nodejs",
+    "log4js",
+    "mocha",
+    "should"
+  ],
+  "author": "gfcaetano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcaetano/node-basic/issues"
+  },
+  "homepage": "https://github.com/gcaetano/node-basic#readme",
+  "dependencies": {
+    "log4js": "^3.0.6"
+  }
+}
