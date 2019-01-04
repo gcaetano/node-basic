@@ -1,8 +1,8 @@
 
-var config = {
+var settings = {
     log4js: {
         appenders: {
-          file: { 
+          default: { 
             type: 'dateFile', 
             filename: './logs/out', 
             pattern: "-yyyyMMdd.log",
@@ -10,9 +10,10 @@ var config = {
           }
         },
         categories: {
-          default: { appenders: ['file'], level: 'info' }
+          default: { appenders: ['default'], level: 'info' },
+          debug: { appenders: ['default'], level: 'debug' }
         }
     }
 };
 
-module.exports = config;
+module.exports = settings;
