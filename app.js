@@ -1,3 +1,4 @@
 const logger = require('./util/logger');
+const helper = require('./util/helper').Helper;
 
-logger.info("message");
+logger.info(helper.getRandom(5));
